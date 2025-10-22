@@ -1,0 +1,36 @@
+# ===== Environment Files =====
+.env
+.env.*
+!.env.template  # keep the template for others to see what vars are needed
+
+# ===== Node / CDK Files =====
+node_modules/
+.cdk.staging/
+cdk.out/
+
+# ===== TypeScript / Build Artifacts =====
+*.d.ts
+*.js
+!jest.config.js
+*.tsbuildinfo
+
+# ===== Python Cache =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+
+# ===== OS / Misc =====
+.DS_Store
+Thumbs.db
+
+# ===== Archives / Temp =====
+*.zip
+files.zip
